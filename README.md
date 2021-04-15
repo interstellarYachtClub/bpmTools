@@ -1,3 +1,27 @@
+#Welcome to BPM Tools!
+
+This is an app aimed at helping electronic music producers and especially those without a strong music background.
+
+# What does this app do?
+Currently this page has two sections. More will be added later.
+
+The first section provides a tool for producers to ensure all of the notes they are using musically exist in the same scale. Those without a strong music background, myself included, can find the entire piano roll intimidating since some notes sound "in", some sound "out", and some can be fuzzy. By choosing a specific scale, this application provides the musical notes and tonic that are following structured musical rules to ensure music is produced in key.
+
+The second section provides exact timings for a variety of beat subdivisions. For anyone producing electonic music, there is a constant fight against perfectly quantized sounds and processing. It is a fine line to walk between rhythms that are "on" beat in a human way vs. sounding out of sync. And this constrasts with being exactly robotically in perfect syncronization all the time. This delay calculator will allow users to dial in values on their delays and reverbs on analog or virtual DAW instruments that are very nearly in sync with the tempo of their tracks, but finetune their rhythms for more humanization. This can be effective for adding swing or controlling reverb so that it doesn't drown out sounds directly on beat.
+
+# How does this app work?
+
+This is a 'Create React App'. It's written entirely in javascript and styled with [Chakra](https://chakra-ui.com/docs/getting-started). All of the data and functions are provided client side on load as there is no middle or backend in this application.
+
+Musical modes and scales are predictable patterns and as a result, this app does not have any combinations of tonic or root keys hard coded. Instead, my approach was to design this application like a caesar cipher encryption where the various modes and keys are shifted along the piano roll to modulate the scale patterns.
+
+The delay calculator is a function of 60,000 milliseconds divided by the BPM. This provides the duration of a single beat and it is then multiplied or subdivided to achieve the time of specific notational duration.
+
+Both of these tools make use of state for a responsive experience.
+
+
+## The default Create React App readme documentation can be found below:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
