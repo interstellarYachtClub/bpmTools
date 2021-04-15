@@ -22,7 +22,7 @@ Both of these tools make use of state for a responsive experience.
 ## How do I run this?
 1. Download it
 2. Dir into the directory
-3. Global install 'npm serve' if you need to: `npm install -g serve
+3. Global install 'npm serve' if you need to: `npm install -g serve`
 4. `serve -s build`
 5. Make sick beats!
 
