@@ -22,7 +22,7 @@ Both of these tools make use of state for a responsive experience.
 ## How do I run this?
 This app requires running on node. You will need to run [node](https://nodejs.org/en/) and the [node package manager](https://www.npmjs.com/get-npm).
 1. Download this app
-2. Dir into the directory
+2. cd into the directory
 3. Global install 'npm serve' if you need to: `npm install -g serve`
 4. `serve -s build`
 5. Make sick beats!
