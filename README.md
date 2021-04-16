@@ -27,6 +27,18 @@ This app requires running on node. You will need to run [node](https://nodejs.or
 4. `serve -s build`
 5. Make sick beats!
 
+## Still to do:
+- Add a nav bar for multipage functionality
+- - Add a page with thorough explanation on the functionality
+- - Add an about page that explans technical details of the site
+- Clean up the styling
+- Add a sub-bass compression time calculator
+- Add an EQ range per note chart
+
+## Wishlist items:
+- Add a drag n drop chord progression builder
+- Provide pianoroll overlay
+
 
 ## The default Create React App readme documentation can be found below:
 
