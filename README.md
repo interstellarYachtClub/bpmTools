@@ -27,12 +27,15 @@ This app requires running on node. You will need to run [node](https://nodejs.or
 4. `serve -s build`
 5. Make sick beats!
 
+## Updates:
+-Added hide/show functionality so that user can toggle between hiding/displaying useful tools
+-Added a sub-bass compression attack time table
+
 ## Still to do:
 - Add a nav bar for multipage functionality
 - - Add a page with thorough explanation on the functionality
 - - Add an about page that explans technical details of the site
 - Clean up the styling
-- Add a sub-bass compression time calculator
 - Add an EQ range per note chart
 
 ## Wishlist items:
