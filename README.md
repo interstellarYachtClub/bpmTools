@@ -28,8 +28,8 @@ This app requires running on node. You will need to run [node](https://nodejs.or
 5. Make sick beats!
 
 ## Updates:
--Added hide/show functionality so that user can toggle between hiding/displaying useful tools
--Added a sub-bass compression attack time table
+- Added hide/show functionality so that user can toggle between hiding/displaying useful tools
+- Added a sub-bass compression attack time table
 
 ## Still to do:
 - Add a nav bar for multipage functionality
