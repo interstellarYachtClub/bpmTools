@@ -1,6 +1,7 @@
 # Welcome to BPM Tools!
 
 This is an app aimed at helping electronic music producers and especially those without a strong music background.
+It is temporarily deployed and available from [HERE](https://heuristic-ritchie-6e0337.netlify.app/) but will require further development and polish until I plan to share it with the music production community at large.
 
 ## What does this app do?
 Currently this page has two sections. More will be added later.
