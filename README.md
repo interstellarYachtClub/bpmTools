@@ -4,11 +4,13 @@ This is an app aimed at helping electronic music producers and especially those 
 It is temporarily deployed and available from [HERE](https://heuristic-ritchie-6e0337.netlify.app/) but will require further development and polish until I plan to share it with the music production community at large.
 
 ## What does this app do?
-Currently this page has two sections. More will be added later.
+Currently this app has five tools. More tools and features will likely be added later.
 
 The first section provides a tool for producers to ensure all of the notes they are using musically exist in the same scale. Those without a strong music background, myself included, can find the entire piano roll intimidating since some notes sound "in", some sound "out", and some can be fuzzy. By choosing a specific scale, this application provides the musical notes and tonic that are following structured musical rules to ensure music is produced in key.
 
-The second section provides exact timings for a variety of beat subdivisions. For anyone producing electonic music, there is a constant fight against perfectly quantized sounds and processing. It is a fine line to walk between rhythms that are "on" beat in a human way vs. sounding out of sync. And this constrasts with being exactly robotically in perfect syncronization all the time. This delay calculator will allow users to dial in values on their delays and reverbs on analog or virtual DAW instruments that are very nearly in sync with the tempo of their tracks, but finetune their rhythms for more humanization. This can be effective for adding swing or controlling reverb so that it doesn't drown out sounds directly on beat.
+The second, third, and fourth tools provides exact timings for a variety of beat subdivisions. For anyone producing electonic music, there is a constant fight against perfectly quantized sounds and processing. It is a fine line to walk between rhythms that are "on" beat in a human way vs. sounding out of sync. And this constrasts with being exactly robotically in perfect syncronization all the time. This delay calculator will allow users to dial in values on their delays and reverbs on analog or virtual DAW instruments that are very nearly in sync with the tempo of their tracks, but finetune their rhythms for more humanization. This can be effective for adding swing or controlling reverb so that it doesn't drown out sounds directly on beat. These timings are also useful for dynamic processing such as compression.
+
+The fifth tool is for EQing and tuning.
 
 ## How does this app work?
 
