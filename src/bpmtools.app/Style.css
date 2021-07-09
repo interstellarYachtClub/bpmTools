@@ -1,0 +1,50 @@
+.bpmBody {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bpmToolsHeader {
+    display: flex;
+    justify-content: center;
+}
+
+/* .timeComponent {
+    display: none;
+} */
+
+.showModule {
+    display: block;
+}
+.hideModule {
+    display: none;
+}
+
+.comp1 {
+    margin-top: 40px;
+}
+
+.aboutHeader {
+    margin-top: 80px;
+}
+.infoHeader {
+    margin-top: 80px;
+}
+
+.aboutBody {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.aboutText {
+    text-align: left;
+}
+
+.infoBody {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.itemText {
+    text-align: left;
+}
