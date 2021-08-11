@@ -14,13 +14,9 @@ The fifth tool is for EQing and tuning.
 
 ## How does this app work?
 
-This is a 'Create React App'. It's written entirely in javascript and styled with [Chakra](https://chakra-ui.com/docs/getting-started). All of the data and functions are provided client side on load as there is no middle or backend in this application.
-
 Musical modes and scales are predictable patterns and as a result, this app does not have any combinations of tonic or root keys hard coded. Instead, my approach was to design this application like a caesar cipher encryption where the various modes and keys are shifted along the piano roll to modulate the scale patterns.
 
 The delay calculator is a function of 60,000 milliseconds divided by the BPM. This provides the duration of a single beat and it is then multiplied or subdivided to achieve the time of specific notational duration.
-
-Both of these tools make use of state for a responsive experience.
 
 ## How do I run this?
 This app requires running on node. You will need to run [node](https://nodejs.org/en/) and the [node package manager](https://www.npmjs.com/get-npm).
@@ -35,16 +31,24 @@ This app requires running on node. You will need to run [node](https://nodejs.or
 - Added a sub-bass compression attack time table
 
 ## Still to do:
-- Add a nav bar for multipage functionality
-- - Add a page with thorough explanation on the functionality
-- - Add an about page that explans technical details of the site
 - Clean up the styling
-- Add an EQ range per note chart
+-- Modify EQ range per note chart
 
 ## Wishlist items:
-- Add a drag n drop chord progression builder
 - Provide pianoroll overlay
+- Add a drag n drop chord progression builder
 
+## Technical Information & Implementation:
+This website is developed in javascript with some use of CSS. It runs on node and utilizes several npm packages. There is currently no backend to the this site as all scripting is delivered on load.  The npm packages currently used are create-react-app, chakra-ui, material-ui, and react-router.
+
+The 'Scale / mode reference' piece of this application is not written with 84 arrays hard coded. Instead, it works off the same patterns as musical scales. Each scale/mode is stored as an array of values that match the pattern of note interval changes within the scale/mode. A second array is stored with javascript key-value pairs. When the user makes a selection, a function is run which returns a third array which matches the selected pattern starting with the selected note (which corresponds to the value in the matching key-value pair). The returned values are set in react's state.
+
+FUTURE IMPLEMENTATIONS:
+I am currently working to implement an additional page which will provide information on some of the typical tools I use myself in music production. I plan to generate this page with a collection of react components where the data will be sortable and related. Express and GraphQL will be used to write the API that will access the data stored in MongoDB.
+
+FUTURE FUTURE: 
+Perhaps one day this very application will be available to run as a react native mobile app.
+ 
 
 ## The default Create React App readme documentation can be found below:
 
