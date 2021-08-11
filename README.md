@@ -2,11 +2,17 @@
 
 This is an app aimed at helping electronic music producers and especially those without a strong music background.
 It is temporarily deployed and available from [HERE](https://heuristic-ritchie-6e0337.netlify.app/) but will require further development and polish until I plan to share it with the music production community at large.
+
 Contents:
+
 [What does this app do?](https://github.com/interstellarYachtClub/bpmTools/blob/main/README.md#what-does-this-app-do)
+
 [How does this app work?](https://github.com/interstellarYachtClub/bpmTools/#how-does-this-app-work)
+
 [How do I run this?](https://github.com/interstellarYachtClub/bpmTools/#how-do-i-run-this)
+
 [Updates](https://github.com/interstellarYachtClub/bpmTools/#how-do-i-run-this)
+
 [Technical Information & Implementation](https://github.com/interstellarYachtClub/bpmTools/#technical-information--implementation)
 
 ## What does this app do?
