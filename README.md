@@ -2,6 +2,12 @@
 
 This is an app aimed at helping electronic music producers and especially those without a strong music background.
 It is temporarily deployed and available from [HERE](https://heuristic-ritchie-6e0337.netlify.app/) but will require further development and polish until I plan to share it with the music production community at large.
+Contents:
+[What does this app do?](https://github.com/interstellarYachtClub/bpmTools/blob/main/README.md#what-does-this-app-do)
+[How does this app work?](https://github.com/interstellarYachtClub/bpmTools/#how-does-this-app-work)
+[How do I run this?](https://github.com/interstellarYachtClub/bpmTools/#how-do-i-run-this)
+[Updates](https://github.com/interstellarYachtClub/bpmTools/#how-do-i-run-this)
+[Technical Information & Implementation](https://github.com/interstellarYachtClub/bpmTools/#technical-information--implementation)
 
 ## What does this app do?
 Currently this app has five tools. More tools and features will likely be added later.
@@ -19,6 +25,7 @@ Musical modes and scales are predictable patterns and as a result, this app does
 The delay calculator is a function of 60,000 milliseconds divided by the BPM. This provides the duration of a single beat and it is then multiplied or subdivided to achieve the time of specific notational duration.
 
 ## How do I run this?
+You can check out the app [HERE](https://heuristic-ritchie-6e0337.netlify.app/) of course. But if you want to download the source you will need to run it in a development environment.
 This app requires running on node. You will need to run [node](https://nodejs.org/en/) and the [node package manager](https://www.npmjs.com/get-npm).
 1. Download this app
 2. cd into the directory
